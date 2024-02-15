@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans:ital,wght@1,900&display=swap"
+        rel="stylesheet">
+    <title>PortFolio</title>
+</head>
+
+<body class="bg-black">
+    <div class="nav bg-black" id="nav">
+        <nav class="flex h-15 items-center border-2 border-transparent border-b-lime-300">
+            <div class="logo flex lg:justify-center lg:w-1/2"><img src="images/White logo - no background.png"
+                    class="lg:h-14 h-8"></div>
+            <div class="items text-white  lg:w-1/2 font-[Montserrat] hidden lg:inline-flex lg:justify-end lg:px-32">
+                <ul class="lg:inline-flex lg:h-full space-x-36 ">
+                    <li
+                        class="cursor-pointer  hover:-translate-y-1 transition border-4 border-transparent hover:border-t-lime-400 hover:border-b-lime-400">
+                        Home</li>
+                    <li id="nav-about"
+                        class="cursor-pointer  hover:-translate-y-1 transition border-4 border-transparent hover:border-t-lime-400 hover:border-b-lime-400">
+                        About</li>
+                    <li id="nav-con"
+                        class="cursor-pointer  hover:-translate-y-1 transition border-4 border-transparent hover:border-t-lime-400 hover:border-b-lime-400">
+                        Contact</li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section class="bg-black h-[20rem] lg:h-[50rem]">
+        <div class=" h-full flex ">
+            <div class="left w-1/2  flex-col flex items-center justify-center">
+                <div
+                    class="p-10 upper text-white font-[Montserrat] justify-center flex items-center lg:hidden  h-1/2 w-full">
+                    <p>
+                        Hi! I am <br><span class="text-3xl">
+                            Himanshu Sharma
+                        </span>
+                    </p>
+                </div>
+                <div class="border-4 border-transparent border-t-white lower p-5 lg:hidden  h-1/2 w-full py-10">
+                    <span class="text-white text-xl font-[Montserrat]">I am a frontend</span> <br> <span
+                        class="auto-input text-lime-300 font-[Montserrat] text-3xl "></span>
+                </div>
+                <!-- LargeScreen -->
+                <div class="px-10  items-center largescreen text-white hidden lg:flex h-1/2 w-full  ">
+                    <p class="text-[5rem] font-[Montserrat]">Hi! I am <br>
+                        <span class="">Himanshu Sharma
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="px-10 largescreen text-white hidden lg:flex h-1/2 w-full flex-col ">
+                    <div class="upper h-1/2  w-full flex items-center">
+                        <p class="text-white font-[Montserrat] text-[4rem]"><i class="fa-solid fa-computer"></i> A
+                            Frontend <span class=" text-lime-300"><span id="auto-input"
+                                    class=" text-lime-300 font-[Montserrat] text--[10rem] "></span> </span></p>
+                    </div>
+                    <div
+                        class="lower h-1/2  w-full flex items-end p-20 text-3xl border-4 border-transparent border-t-white">
+                        <span class="space-y-2">
+                            <label for="social-media" class="font-[Montserrat]">Follow me here: <br></label>
+                            <ul class="social-media inline-flex space-x-10 px-5">
+                                <li><a href="https://instagram.com/himanshupandat19"><i
+                                            class="cursor-pointer hover:-translate-y-1 transition fa-brands fa-instagram"></i></a>
+                                </li>
+                                <li><a href=""><i
+                                            class="cursor-pointer hover:-translate-y-1 transition fa-brands fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://github.com/thecyberjerry"><i
+                                            class="cursor-pointer hover:-translate-y-1 transition fa-brands fa-github"></i></a>
+                                </li>
+                            </ul>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class=" w-1/2  flex items-center justify-center ">
+                <img src="images/banner.png" class="h-1/2 lg:h-full" alt="">
+
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="text-white 4 font-[Montserrat]  h-auto flex  my-10 flex-col " id="aboutme">
+
+        <div class=" flex flex-row ">
+            <div class="w-1/2 justify-center flex items-center"><span class="text-2xl lg:lg:text-[4rem]">About <span
+                        class="text-lime-300">Me <i class="fa-regular fa-user"></i></span></span></div>
+            <div class=" flex w-1/2"><dotlottie-player
+                    src="https://lottie.host/ff2fba1a-1862-482b-a479-9102f49cdb1b/RFdzcpvkBF.json"
+                    background="transparent" speed="1" loop autoplay></dotlottie-player>
+            </div>
+        </div>
+        <div class="items-center justify-center flex lg:text-xl text-justify p-5 mx-5 lg:mx-10 lg:px-20 border-4 border-lime-300 rounded-2xl ">
+            <p class="lg:hidden">
+                As a passionate developer, I command skills in HTML, CSS, basic JS, and basic Python Flask, showcasing
+                my proficiency. <span class="text-lime-300">My Bug Hunting experience</span> underscores a commitment to
+                <span class="text-lime-300">cybersecurity</span>. <br> <br> Eager to contribute, I am a dedicated fresher seeking opportunities to make a
+                meaningful impact and thrive in the ever-evolving IT landscape.</p>
+
+            <p class="hidden lg:inline">Hello! I am a passionate developer with a solid foundational understanding of key
+                programming languages -
+                HTML, CSS, and basic JavaScript. Additionally, I possess a basic grasp of Python Flask. My enthusiasm extends
+                to <span class="text-lime-300">Bug Hunting</span> at Home, reflecting my commitment to honing my skills in <span class="text-lime-300">web security</span> .
+                <br> <br>
+                My journey into the IT field has provided me with a good foundational understanding of <span class="text-lime-300">cybersecurity</span> . As
+                a fresher, I am eager to contribute my skills and dedication to a dynamic company. I am open to
+                opportunities that allow me to learn, grow, and gain valuable experience in the ever-evolving realm of
+                technology.
+                <br><br>
+
+                Ready to embark on a fulfilling career, I am excited to bring my passion for development, cybersecurity,
+                and continuous learning to a forward-thinking organization.
+            </p>
+        </div>
+    </section>
+    <hr>
+    <section class=" bg-black h-auto my-3 " id="qualifications">
+        <div class=" h-full flex-col flex ">
+            <div class=" h-full w-full flex justify-center">
+                <div class="flex  w-full justify-center ">
+                    <img src="images/qualifications.png" class="w-1/2">
+                </div>
+                <div class=" w-full  flex justify-center items-center text-center ">
+                    <p class="lg:leading-[8rem] text-white font-[Montserrat] text-lg lg:text-[4rem]">About my <br> <span
+                            class="text-lime-300 text-xl lg:text-[7rem]">Qualifications!</span> </p>
+                </div>
+            </div>
+            <div class=" my-10 h-full w-full flex px-3">
+                <table class="w-full text-center text-white 4 font-[Montserrat]">
+                    <tr>
+                        <th><span class="border-4 lg:text-2xl border-b-lime-300 border-transparent">Class</span></th>
+                        <th><span
+                                class="border-4 lg:text-2xl border-b-lime-300 border-transparent">School/Institute</span>
+                        </th>
+                        <th><span class="border-4 lg:text-2xl border-b-lime-300 border-transparent">Percentage</span>
+                        </th>
+                    </tr>
+                    <tr class="leading-8">
+                        <td class="py-5">10th</td>
+                        <td class="py-5">Anand Public School</td>
+                        <td class="py-5">66%</td>
+                    </tr>
+                    <tr class="leading-8">
+                        <td class="py-5">12th</td>
+                        <td class="py-5">Anand Public School</td>
+                        <td class="py-5">63%</td>
+                    </tr>
+                    <tr class="leading-8">
+                        <td class="py-5">BCA</td>
+                        <td class="py-5">Tilak Raj Chadha Institute of Management & Technology</td>
+                        <td class="py-5">69%</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <hr class="mb-4">
+        <div class="lg:mt-24 h-auto flex">
+            <div class=" w-1/2 justify-center items-center flex text-center">
+                <p class="lg:leading-[8rem] text-white font-[Montserrat] text-lg lg:text-[4rem]">Some of my<br> <span
+                        class="text-lime-300 text-xl lg:text-[7rem]">Certifications!</span> </p>
+            </div>
+            <div class=" w-1/2 flex justify-center">
+
+                <img src="images/certificate.png" class="w-1/2" alt="">
+            </div>
+
+        </div>
+        <div class=" my-10 h-full w-full flex px-3">
+            <table class="w-full text-center text-white 4 font-[Montserrat]">
+                <tr>
+                    <th><span class="border-4 lg:text-2xl border-b-lime-300 border-transparent">Title</span></th>
+                    <th><span class="border-4 lg:text-2xl border-b-lime-300 border-transparent">Provider</span>
+                    </th>
+                    <th><span class="border-4 lg:text-2xl border-b-lime-300 border-transparent">Time Of
+                            Completion</span>
+                    </th>
+                </tr>
+                <tr class="leading-8">
+                    <td class="py-5">Intro to CyberSec..</td>
+                    <td class="py-5">Cybrary</td>
+                    <td class="py-5">Jan 2022</td>
+                </tr>
+                <tr class="leading-8">
+                    <td class="py-5">Intro to CyberSec..</td>
+                    <td class="py-5">CISCO</td>
+                    <td class="py-5">March 2022</td>
+                </tr>
+                <tr class="leading-8">
+                    <td class="py-5">Ethical Hacking Essentials</td>
+                    <td class="py-5">CodeRed! (EC-Council)</td>
+                    <td class="py-5">Jan 2023</td>
+                </tr>
+
+            </table>
+        </div>
+    </section>
+    <hr class="mb-4">
+    <section class="font-[Montserrat] text-white h-auto w-auto " id="techstack">
+        <div class="  flex justify-center lg:py-10">
+            <h1 class="justify-center text-3xl lg:text-[5rem] "><span class="text-lime-300">Tech Stack</span> I know <i
+                    class="fa-solid fa-server"></i></h1>
+        </div>
+        <div class=" h-[20rem] p-10 justify-center hidden lg:flex ">
+            <div class=" w-auto flex justify-center flex-wrap">
+                <div class="text-white font-[Montserrat] flex h-full flex-col justify-center bg-black-100">
+                    <!--Flip start-->
+                    <div class="cursor-pointer group h-96 w-96 [perspective:1000px]">
+                        <div
+                            class="relative h-full w-full rounded-2xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                            <div class="absolute inset-0">
+                                <img src="images/html.png"
+                                    class="h-full w-full rounded-xl object-contain shadow-xl shadow-black/40" alt="">
+
+                            </div>
+                            <div
+                                class="absolute inset-0 h-full w-full rounded-xl bg-black/60 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                                <div class="text flex items-center justify-center flex-col min-h-full">
+                                    <h1 class="text-3xl font-bold">HTML</h1>
+                                    <p>Proficient in HTML, I showcase technical prowess in my portfolio. Meticulous,
+                                        with a strong grasp of web development principles.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-white font-[Montserrat] flex h-full flex-col justify-center bg-black-100">
+                    <!--Flip start-->
+                    <div class="cursor-pointer group h-96 w-96 [perspective:1000px]">
+                        <div
+                            class="relative h-full w-full rounded-2xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                            <div class="absolute inset-0">
+                                <img src="images/javascript-39397.png"
+                                    class="h-full w-full rounded-xl object-contain shadow-xl shadow-black/40" alt="">
+
+                            </div>
+                            <div
+                                class="absolute inset-0 h-full w-full rounded-xl bg-black/60 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                                <div class="text flex items-center justify-center flex-col min-h-full">
+                                    <h1 class="text-3xl font-bold">Basic Javascript</h1>
+                                    <p>Equipped with a foundational knowledge of JavaScript, I implement essential
+                                        functionalities in my projects, enhancing user experiences on my portfolio
+                                        website.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-white font-[Montserrat] flex h-full flex-col justify-center bg-black-100">
+                    <!--Flip start-->
+                    <div class="cursor-pointer group h-96 w-96 [perspective:1000px]">
+                        <div
+                            class="relative h-full w-full rounded-2xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                            <div class="absolute inset-0">
+                                <img src="images/css.png"
+                                    class="h-full w-full rounded-xl object-contain shadow-xl shadow-black/40" alt="">
+
+                            </div>
+                            <div
+                                class="absolute inset-0 h-full w-full rounded-xl bg-black/60 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                                <div class="text flex items-center justify-center flex-col min-h-full">
+                                    <h1 class="text-3xl font-bold">CSS</h1>
+                                    <p>I possess a fundamental grasp of CSS, ensuring a solid foundation for web styling
+                                        in my portfolio projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-white font-[Montserrat] flex h-full flex-col justify-center bg-black-100">
+                    <!--Flip start-->
+                    <div class="cursor-pointer group h-96 w-96 [perspective:1000px]">
+                        <div
+                            class="relative h-full w-full rounded-2xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                            <div class="absolute inset-0">
+                                <img src="images/tailwind.png"
+                                    class="h-full w-full rounded-xl object-contain shadow-xl shadow-black/40" alt="">
+
+                            </div>
+                            <div
+                                class="absolute inset-0 h-full w-full rounded-xl bg-black/60 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                                <div class="text flex items-center justify-center flex-col min-h-full">
+                                    <h1 class="text-3xl font-bold">Tailwind CSS</h1>
+                                    <p>Leveraging Tailwind CSS, I've intricately designed my portfolio website,
+                                        showcasing a mastery of this utility-first framework with a unique and polished
+                                        aesthetic.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lg:hidden  h-auto w-full flex flex-wrap items-center justify-center" id="techstack">
+            <div class=" w-[30%] m-4 justify-center flex flex-col ">
+                <div class="h-[80%] ">
+                    <img src="images/html.png" class="w-auto lg:hover:-translate-y-2 transition" alt="">
+                </div>
+                <div
+                    class="font-[Montserrat] text-xl flex items-center justify-center h-[20%] border-4 border-t-lime-300 my-2 border-b-lime-300 border-transparent">
+                    <p class="text-center">HTML</p>
+                </div>
+            </div>
+            <div class=" w-[30%] m-4 justify-center flex flex-col ">
+                <div class="h-[80%] ">
+                    <img src="images/javascript-39397.png" class="w-auto lg:hover:-translate-y-2 transition" alt="">
+                </div>
+                <div
+                    class="font-[Montserrat] text-xl flex items-center justify-center h-[20%] border-4 border-t-lime-300 my-2 border-b-lime-300 border-transparent">
+                    <p class="text-center">Javascript </p>
+                </div>
+            </div>
+            <div class=" w-[30%] m-4 justify-center flex flex-col ">
+                <div class="h-[80%] ">
+                    <img src="images/css.png" class="w-auto lg:hover:-translate-y-2 transition" alt="">
+                </div>
+                <div
+                    class="font-[Montserrat] text-xl flex items-center justify-center h-[20%] border-4 border-t-lime-300 my-2 border-b-lime-300 border-transparent">
+                    <p class="text-center">CSS </p>
+                </div>
+            </div>
+            <div class=" w-[30%] m-4 justify-center flex flex-col ">
+                <div class="h-[80%] ">
+                    <img src="images/tailwind.png" class="w-auto lg:hover:-translate-y-2 transition" alt="">
+                </div>
+                <div
+                    class="font-[Montserrat] text-xl flex items-center justify-center h-[20%] border-4 border-t-lime-300 my-2 border-b-lime-300 border-transparent">
+                    <p class="text-center">Tailwind CSS </p>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <hr class="my-4">
+    <section id="contact" class=" font-[Montserrat] text-white">
+        <div class="flex h-auto flex-col lg:flex-row  ">
+            <div
+                class="lg:space-y-36 lg:flex-col Heading w-full h-auto lg:w-1/2   items-center justify-center flex text-3xl lg:text-[4rem]">
+                <h1>Contact <span class="text-lime-300">Me! <i class="fa-brands fa-rocketchat"></i></span></h1>
+                <a href="/Assets/docs/Resume.pdf" download="himanshu-resume.pdf"><button
+                        class="border-2 border-lime-300 p-5 hover:bg-white hover:text-black transition duration-500 font-bold text-center hidden lg:flex text-3xl">Download
+                        Resume</button></a>
+            </div>
+            <div class="image w-full h-auto lg:h-[40rem] lg:w-1/2  lg:flex lg:justify-center lg:items-center">
+                <form class=" h-full w-full flex flex-col p-10 space-y-5 " id="form">
+                    <div class="flex flex-col space-y-5">
+                        <label for="name">Name: <sup class="text-lime-300">*required</sup> </label>
+                        <input required class="text-black border-2 border-transparent rounded-2xl p-2" id="name"
+                            placeholder="Enter Name" type="text">
+                    </div>
+                    <div class="flex flex-col space-y-5">
+                        <label for="phone">Phone: <sup class="text-lime-300">*optional</sup> </label>
+                        <input required class="text-black border-2 border-transparent rounded-2xl p-2" id="phone"
+                            placeholder="Enter Phone" type="number">
+                    </div>
+                    <div class="flex flex-col space-y-5">
+                        <label for="email">Email: <sup class="text-lime-300">*required</sup> </label>
+                        <input required class="text-black border-2 border-transparent rounded-2xl p-2" id="email"
+                            placeholder="Enter email" type="email">
+                    </div>
+                    <div class="flex flex-col space-y-5">
+                        <label for="msg">Enter Message: <sup class="text-lime-300">*required</sup></label>
+                        <textarea required name="" class="resize-none text-black border-2 border-transparent rounded-2xl p-2"
+                            id="msg" cols="10" rows="5" placeholder="Enter Message"></textarea>
+                    </div>
+                    <button id="btnSubmit" type="submit"
+                        class="border-2 border-lime-300 w-1/2 py-2 hover:bg-white hover:text-black transition duration-500 font-bold">
+                        Submit
+                    </button>
+                </form>
+                
+                <div id="success-tick" class="flex-col text-center items-center  flex justify-center">
+                    <dotlottie-player src="https://lottie.host/e6390289-1e2b-4656-9095-1b57eced9009/TqAGkbZ53H.json"
+                        background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+                        autoplay></dotlottie-player>
+                    <p class="text-2xl">Thankyou for this Opportunity!
+                        <br>Will get to you SOON!😊
+                    </p>
+                </div>
+            </div>
+            <a href="/Assets/docs/Resume.pdf" download="himanshu-resume.pdf" class="lg:hidden mx-10"><button
+                class="border-2 border-lime-300  font-bold text-center  lg:flex text-lg p-2">Download
+                Resume</button></a>
+        </div>
+    </section>
+    <hr class="my-4">
+    <footer class="h-auto  text-white font-[Montserrat]">
+        <div class="flex items-center  justify-center flex-col gap-5  p-5">
+            <img src="images/White logo - no background.png" class="w-[80%] lg:w-1/5" alt="">
+            <button
+                class="border-2 hover:bg-white hover:text-black transition duration-500 font-bold border-lime-300 p-3 lg:hidden text-lg"><a
+                    href="mailto:himanshusharma2719@gmail.com">Send email</a></button>
+            <div class=" flex ">
+                <ul class="inline-flex gap-10 text-2xl">
+                    <li><a href="https://instagram.com/himanshupandat19"><i
+                                class="cursor-pointer lg:hover:-translate-y-1 transition fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li><a href="#"><i
+                                class="cursor-pointer lg:hover:-translate-y-1 transition fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li><a href="https://github.com/thecyberjerry"><i
+                                class="cursor-pointer lg:hover:-translate-y-1 transition fa-brands fa-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="  font-[Montserrat] text-white lg:flex lg:justify-evenly">
+            <div class=" ">
+                <p><span class="text-lg lg:text-xl border-2 border-transparent border-b-lime-300">Sitemap :</span>
+                <ul class="space-y-3  p-5">
+                    <li><a class="lg:hover:text-lime-300" href="#nav">Home</a></li>
+                    <li><a class="lg:hover:text-lime-300" href="#qualifications">Qualifications</a></li>
+                    <li><a class="lg:hover:text-lime-300" href="#techstack">Tech Knowledge</a></li>
+                    <li><a class="lg:hover:text-lime-300" href="#nav">Return to Top</a></li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <hr class="mx-8 lg:mx-96">
+        <div class="text-center text-sm w-auto h-auto font-[Montserrat] text-white justify-center flex">
+            <p>Made with ❤️ by <span class="text-lime-300">Himanshu Sharma, </span>© 2024 Himanshu Sharma. All rights
+                reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
